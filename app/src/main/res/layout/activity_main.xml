@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/BackG">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WHAT'S HERE"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="80dp"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp">
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="Email Address"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20sp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:id="@+id/tvPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEmail"
+            android:layout_marginLeft="30dp"
+            android:paddingBottom="35sp"
+            android:text="Password"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etPass"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etEmail"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginStart="30dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginBottom="10dp"
+        />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="35sp"
+        android:layout_gravity="center"
+        android:text="Forget Password?"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="35sp"
+        android:layout_gravity="center"
+        android:text="_________  or  _________"
+        android:textSize="15sp" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="35sp"
+        android:layout_gravity="center"
+        android:text="Sign up"
+        android:textSize="15sp" />
+</LinearLayout>
+
