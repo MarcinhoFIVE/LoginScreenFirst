@@ -28,24 +28,26 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp">
 
-        <TextView
+        <!-- TextView
             android:textColor="@color/white"
             android:id="@+id/tvEmail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:text="Email Address"
-            android:textSize="20dp"/>
+            android:textSize="20dp"/ -->
 
         <EditText
             android:id="@+id/etEmail"
+            android:hint="     Email Address"
+            android:textColorHint="@color/white"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="20sp"
             android:backgroundTint="@color/white"
             android:textColor="@color/white" />
 
-        <TextView
+        <!--TextView
             android:id="@+id/tvPass"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -54,13 +56,16 @@
             android:paddingBottom="35sp"
             android:text="Password"
             android:textColor="@color/white"
-            android:textSize="20sp" />
+            android:textSize="20sp" /-->
 
         <EditText
             android:id="@+id/etPass"
+            android:hint="     Password"
+            android:textColorHint="@color/white"
             android:layout_width="340dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/etEmail"
+            android:layout_marginBottom="10sp"
             android:backgroundTint="@color/white"
             android:textColor="@color/white" />
 
