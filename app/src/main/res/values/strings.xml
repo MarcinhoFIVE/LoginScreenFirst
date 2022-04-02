@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">LoginScreenFirst</string>
+    <string name="app_name"><a href="https://material.io/">LoginScreenFirst</a></string>
+    <string name="sign_up"><a href="https://material.io/"><u>Sign up</u></a></string>
+    <string name="what_s_here">WHAT\'S HERE</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="or">_________ or _________</string>
 </resources>
